@@ -1,0 +1,45 @@
+* {
+	cursor: default;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+a,
+a:visited {
+	color: #3399cc;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+}
+a:focus,
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+h1 {
+	color: #1e2a1e;
+	font-size: 2em;
+	font-weight: normal;
+}
+p {
+	color: #565f56;
+	font-size: 1.5em;
+	padding: 20px 0 0 0;
+}
+.hidden {
+	margin: 0 0 0 -999em;
+	position: absolute;
+}
+#content {
+	background: url(hello.png) 0 0 no-repeat;
+	left: 10%;
+	margin: 0px;
+	padding: 56px 0 56px 0px;
+	position: absolute;
+	top: 10%;
+}
